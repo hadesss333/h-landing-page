@@ -32,6 +32,8 @@ body {
     background-image: url("bg-desktop.svg");
     width: 1318px;
     height: 781px;
+    margin: -29px 0 0;
+}
     
    
 }
