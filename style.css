@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+:root {
+    --Violet-\(main-card\): hsl(257, 40%, 49%);
+    --Soft-Magenta-\(button\): hsl(300, 69%, 71%);
+    
+    --font-poppins: "Poppins";
+    --font-open-Sans: "Open Sans";
+
+    --font-regular: 400;
+    --font-semi-bold: 600;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 202px 0px 0px;
+    justify-content: flex-start;
+    background-color: var(--Violet-\(main-card\));
+    
+}
+
+.vec {
+    display: flex;
+    flex-direction: column;
+    background-image: url("bg-desktop.svg");
+    width: 1318px;
+    height: 781px;
+    
+   
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: -30px;
+    
+}
+
+.logo {
+    margin: 33px 50px 3px;
+    position: relative;
+    top: 33px;
+}
+
+.image {
+    margin: 50px 207px 0px 62px;
+    width: 500px;
+}
+
+.text {
+    position: relative;
+    margin: 86px 0 0 66px;
+    color: white;
+}
+h1 {
+    font-family: var(--font-poppins);
+    font-size: 2em;
+    font-weight: var(--font-semi-bold);
+}
+p {
+    font-family: var(--font-open-Sans);
+    font-weight: var(--font-regular);
+}
+button {
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-open-Sans);
+    font-weight: var(--font-regular);
+    width: 150px;
+    height: 47px;
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+    border-radius: 26px;
+    border-width: 0;
+    border-style: none;
+    border-color: unset;
+    border-image: none;
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.5);
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: flex-end;
+    padding: 0 55px;
+    margin: -151px -165px;
+
+}
+
+.face-book {
+    padding: 0 10px;
+}
+
+
+.twiter {
+    padding: 0 10px;
+}
+
+
+.instagram {
+    padding: 0 10px;
+}
+
+@media screen and (max-width: 376px) {
+    .vec {
+        flex-direction: column;
+        background-image: url("bg-mobile.svg");
+        width: 806px;
+        height: 841px
+       
+    }
+    .logo {
+        margin: 33px 50px 72px;
+    }
+    
+
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        background-color: var(--Violet-\(main-card\));
+        
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        
+    }
+
+    .image {
+        margin: 0;
+        width: 726px;
+    }
+    
+    .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 540px;
+        font-size: 24px;
+        margin: auto;
+    }
+    h1 {
+        margin: 107px 0 -10px 0;
+    }
+    button {
+        background-color: white;
+        color: var(--Violet-\(main-card\));
+    }
+
+    .icons {
+        position: relative;
+        top: 450px;
+        left: 228px;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    
+}
