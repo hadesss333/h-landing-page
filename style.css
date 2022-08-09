@@ -34,9 +34,6 @@ body {
     height: 781px;
     margin: -27px 0 0;
 }
-    
-   
-}
 
 .container {
     display: flex;
@@ -62,15 +59,18 @@ body {
     margin: 86px 0 0 66px;
     color: white;
 }
+
 h1 {
     font-family: var(--font-poppins);
     font-size: 2em;
     font-weight: var(--font-semi-bold);
 }
+
 p {
     font-family: var(--font-open-Sans);
     font-weight: var(--font-regular);
 }
+
 button {
     padding: 0;
     margin: 0;
